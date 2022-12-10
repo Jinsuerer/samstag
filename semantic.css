@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+header{
+    padding: 20px;
+    background-color: mediumaquamarine;
+    color: #551B8B;
+    font-size: 40px;
+}
+nav{
+    background-color: khaki;
+    background-color: antiquewhite;
+    background-color: khaki;
+    padding: 20px;
+    font-size: center;
+    color:#b682e7;
+}
+nav a{
+    color: #551B8B;
+    text-decoration: none;  /* bir yazinin cizgilerini kaldirir */
+    text-decoration: underline; /* alt cizgi */
+    text-decoration: overline; /* üst cizgili */
+    text-decoration: line-through; /* üzeri cizgili */
+    text-decoration: none; /* cizgili kaldirildi */
+}
+
+/* ziyaret edilmemis link stilleri */
+/* nav a:link {
+ color: black;
+} */
+
+/* ziyaret edilmis link stilleri */
+/* nav a:visited {
+color: yellow;
+} */
+
+/* linkin tikli kaldigi süre boyunca renk verir */
+nav a:active{
+    color: cadetblue;
+}
+
+/* linkin üzerine geldiginde */
+ nav a:hover{
+    text-decoration: underline;
+ }
+ h2 {
+    margin: 20px 0;
+  }
+  
+  figcaption {
+    margin-bottom: 30px;
+  }
+ footer{
+    background: #000;
+    color: whitesmoke;
+    color: white;
+ }
